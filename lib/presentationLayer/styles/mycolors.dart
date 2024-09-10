@@ -11,6 +11,5 @@ class Mycolors{
   static Color white = Color(0xffffffff);
   static Color darkgrey = Color(0xff383838);
   static Color darkbackground = Color(0xff060E1E);
-  static Color babyBlue = Color(0xff5D9CEC);
-  static Color semiblack = Color(0xff141922);
+  static Color semiblack = Color(0xff3a5d77);  //0xff3b5a73
 }
