@@ -1,15 +1,15 @@
 import 'package:flutter/material.dart';
 import 'package:table_calendar/table_calendar.dart';
+import 'package:todo_tasks_app/core/styles/mycolors.dart';
+import 'task_list.dart';
 
-import 'Taskwidget.dart';
-import 'styles/mycolors.dart';
-
-
-class TaskTab extends StatelessWidget {
-  const TaskTab({super.key});
+///calender and task widget
+class TaskBody extends StatelessWidget {
+  const TaskBody({super.key});
 
   @override
   Widget build(BuildContext context) {
+    double height = MediaQuery.of(context).size.height;
     return Column(
       children: [
         TableCalendar(
@@ -71,11 +71,9 @@ class TaskTab extends StatelessWidget {
               fontWeight: FontWeight.bold,
             ),
           ) ,
-          // currentDay: //todo,
-          // onDaySelected://todo ,
         ),
-        SizedBox(height: 20.0),
-        Taskwidget(),
+        SizedBox(height: height*.05),
+        TaskList(),
       ],
     );
   }
