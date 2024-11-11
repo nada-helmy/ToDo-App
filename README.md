@@ -4,11 +4,15 @@ A Flutter-based to-do application for efficiently managing daily tasks with a us
 
 ## Features
 
-Task Management: Add, edit, delete, and mark tasks as complete.
-State Management: Uses Provider approach for handling tasks.
-Responsive UI: Adaptable design across different screen sizes.
-Persistent Data Storage: Tasks are saved locally, ensuring data retention on app restart.
-
+- **Task Management**: Add, edit, delete, and mark tasks as completed.
+- **State Management**: Utilizes the Provider approach to handle tasks.
+- **Persistent Data Storage**: Designed to adapt across various screen sizes.
+- **Persistent Data Storage**: Tasks are stored locally, ensuring data retention upon app restart.
+- **Customizable Themes**: You can choose between dark and light modes according to your preference.
+- <p float="left">
+  <img src="assets/imgs/home%20todo.PNG" width="20.3%" />
+  <img src="assets/imgs/todo%20home%20light.PNG" width="21%" />
+</p>
 
 
 A few resources to get you started if this is your first Flutter project:
