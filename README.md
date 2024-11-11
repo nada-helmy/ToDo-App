@@ -1,10 +1,15 @@
-# todo_tasks_app
+# ToDo App
 
-A new Flutter project.
+A Flutter-based to-do application for efficiently managing daily tasks with a user-friendly interface.
 
-## Getting Started
+## Features
 
-This project is a starting point for a Flutter application.
+Task Management: Add, edit, delete, and mark tasks as complete.
+State Management: Uses Provider approach for handling tasks.
+Responsive UI: Adaptable design across different screen sizes.
+Persistent Data Storage: Tasks are saved locally, ensuring data retention on app restart.
+
+
 
 A few resources to get you started if this is your first Flutter project:
 
